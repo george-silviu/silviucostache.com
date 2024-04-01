@@ -50,6 +50,12 @@ section.home {
     position: relative;
     z-index: 1;
 
+
+    img{
+      border-radius: 50%;
+      width: 50%;
+    }
+
     h1 {
       color: #fff;
       font-size: 36px;

@@ -8,7 +8,7 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "I am George-Silviu, a Full Stack Developer and a ZTM Academy student from Bucharest. I have a passion for web development and I love to create websites and web applications that are both functional and visually appealing. I am constantly learning new technologies and I am always looking for new challenges. I am a hard-working and dedicated person, and I always strive to deliver high-quality work. I am a team player and I enjoy working with others to achieve common goals. I am looking for opportunities to work on interesting projects and to further develop my skills.",
 };
 
 const progressData = [
@@ -26,10 +26,29 @@ const progressData = [
   },
   {
     id: 3,
-    title: "Photography",
+    title: "Test",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
+  {
+    id: 3,
+    title: "Test",
+    percantage: 70,
+    progressColor: "#6C6CE5",
+  },
+  {
+    id: 3,
+    title: "Test",
+    percantage: 70,
+    progressColor: "#6C6CE5",
+  },
+  {
+    id: 3,
+    title: "Test1",
+    percantage: 70,
+    progressColor: "#6C6CE5",
+  },
+  
 ];
 
 const counterData = [
@@ -65,19 +84,25 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-          <div className="col-md-3">
+
+          {/* <div className="col-md-3">
             <div className="text-center text-md-left">
               <img src={aboutContent.avatarImage} alt={aboutContent.name} />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-          </div>
+          </div> 
+          
+            col-md-9
+          */
+          
+          }
 
-          <div className="col-md-9 triangle-left-md triangle-top-sm">
+          <div className=" triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
-                  <div className="mt-3">
+                  <div className="mt-3 d-flex justify-content-center">
                     <a href="!#" className="btn btn-default">
                       Download CV
                     </a>
