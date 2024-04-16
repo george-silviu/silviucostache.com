@@ -14,25 +14,25 @@ const aboutContent = {
 const progressData = [
   {
     id: 1,
-    title: "Development",
+    title: "Frontend (ReactJS)",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Backend (NodeJS, ExpressJS)",
     percantage: 95,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Test",
+    title: "Databases (MongoDB, PostgreSQL, Firebase)",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
   {
     id: 3,
-    title: "Test",
+    title: "Problem Solving (LeetCode, HackerRank)",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
@@ -48,7 +48,6 @@ const progressData = [
     percantage: 70,
     progressColor: "#6C6CE5",
   },
-  
 ];
 
 const counterData = [
@@ -84,7 +83,6 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-
           {/* <div className="col-md-3">
             <div className="text-center text-md-left">
               <img src={aboutContent.avatarImage} alt={aboutContent.name} />
@@ -93,9 +91,7 @@ function About() {
           </div> 
           
             col-md-9
-          */
-          
-          }
+          */}
 
           <div className=" triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">

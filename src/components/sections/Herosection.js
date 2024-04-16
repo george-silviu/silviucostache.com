@@ -31,12 +31,14 @@ function Herosection(props) {
             I'm a{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "",
+                "nature lover",
+                "full-stack developer",
+                "life-long learner",
+                "reader of books",
               ]}
               typeSpeed={80}
-              backSpeed={40}
+              backSpeed={60}
               attr="value"
               loop
             >
@@ -46,28 +48,23 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.instagram.com/george.silviu/">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-twitter"></i>
+              <a href="https://medium.com/@costache.georgesilviu">
+                <i className="fab fa-medium"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
+              <a href="https://www.linkedin.com/in/george-silviu-costache-285050167/">
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="https://github.com/george-silviu">
+                <i className="fab fa-github"></i>
               </a>
             </li>
           </ul>
