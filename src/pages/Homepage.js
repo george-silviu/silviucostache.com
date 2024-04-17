@@ -30,7 +30,7 @@ function Homepage() {
   return (
     <>
       <Header
-        logoSource="/images/logo.svg"
+        logoSource="/images/silviu/logo-silviu.svg"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

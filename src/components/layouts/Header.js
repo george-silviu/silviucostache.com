@@ -34,7 +34,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               <span></span>
             </button>
           </div>
-          <Logo logoSource={logoSource} />
+          {/* <Logo logoSource={logoSource} /> */}
         </div>
       </header>
       <header className={handleClasses()}>
