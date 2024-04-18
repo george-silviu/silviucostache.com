@@ -122,9 +122,9 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         </nav>
 
         <div className="footer">
-          <span className="copyright">
+          {/* <span className="copyright">
             &copy; {new Date().getFullYear()} Bolby Template.
-          </span>
+          </span> */}
         </div>
       </header>
     </>
