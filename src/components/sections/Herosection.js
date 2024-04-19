@@ -2,7 +2,6 @@ import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import ParticlesBg from "particles-bg";
-import "animate.css";
 
 function Herosection(props) {
   // const { x, y } = props.position;
@@ -27,7 +26,7 @@ function Herosection(props) {
       }
     >
       <div className="container">
-        <div class="particles">
+        <div className="particles">
           <ParticlesBg
             type="cobweb"
             color="#F4743B"

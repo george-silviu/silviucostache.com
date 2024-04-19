@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactCursorPosition from "react-cursor-position";
+// import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import About from "../components/sections/About";
@@ -36,9 +36,9 @@ function Homepage() {
       />
       <main className={toggleMenu ? "content open" : "content"}>
         <Element name="section-home">
-          <ReactCursorPosition>
-            <Herosection />
-          </ReactCursorPosition>
+          {/* <ReactCursorPosition> */}
+          <Herosection />
+          {/* </ReactCursorPosition> */}
         </Element>
         <Element name="section-about">
           <About />

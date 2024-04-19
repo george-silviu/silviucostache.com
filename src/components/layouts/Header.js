@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../elements/Logo";
+import ParticlesBg from "particles-bg";
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
@@ -28,6 +29,9 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
   return (
     <>
       <header className={handleMobileClasses()}>
+        <div className="mobile-header-particles">
+          <ParticlesBg type="cobweb" color="#F4743B" bg={true} num={5} />
+        </div>
         <div className="container animate__animated animate__fadeInLeft animate__slow">
           <div className="menu-icon d-inline-flex mr-4">
             <button onClick={headerToggler}>
@@ -38,6 +42,10 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         </div>
       </header>
       <header className={handleClasses()}>
+        <div className="desktop-header-particles">
+          <ParticlesBg type="cobweb" color="#F4743B" bg={true} num={30} />
+        </div>
+
         <Logo logoSource={logoSource} />
         <nav className="animate__animated animate__fadeInLeft animate__slow">
           <ul className="vertical-menu scrollspy">

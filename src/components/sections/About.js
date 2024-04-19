@@ -1,6 +1,6 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
-import Counter from "../elements/Counter";
+// import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
@@ -49,39 +49,39 @@ const progressData = [
     progressColor: "#33cccc",
   },
   {
-    id: 6,
+    id: 7,
     title: "Learning and Growth (ZTM Academy)",
     percantage: 70,
     progressColor: "#ff66ff",
   },
 ];
 
-const counterData = [
-  {
-    id: 1,
-    title: "Projects completed",
-    count: 198,
-    icon: "icon-fire",
-  },
-  {
-    id: 2,
-    title: "Cup of coffee",
-    count: 5670,
-    icon: "icon-cup",
-  },
-  {
-    id: 3,
-    title: "Satisfied clients",
-    count: 427,
-    icon: "icon-people",
-  },
-  {
-    id: 4,
-    title: "Nominees winner",
-    count: 35,
-    icon: "icon-badge",
-  },
-];
+// const counterData = [
+//   {
+//     id: 1,
+//     title: "Projects completed",
+//     count: 198,
+//     icon: "icon-fire",
+//   },
+//   {
+//     id: 2,
+//     title: "Cup of coffee",
+//     count: 5670,
+//     icon: "icon-cup",
+//   },
+//   {
+//     id: 3,
+//     title: "Satisfied clients",
+//     count: 427,
+//     icon: "icon-people",
+//   },
+//   {
+//     id: 4,
+//     title: "Nominees winner",
+//     count: 35,
+//     icon: "icon-badge",
+//   },
+// ];
 
 function About() {
   return (
