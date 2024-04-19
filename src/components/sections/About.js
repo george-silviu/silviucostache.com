@@ -5,7 +5,7 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Silviu",
   avatarImage: "/images/avatar-2.svg",
   content:
     "I am George-Silviu, a Full Stack Developer and a ZTM Academy student from Bucharest. I have a passion for web development and I love to create websites and web applications that are both functional and visually appealing. I am constantly learning new technologies and I am always looking for new challenges. I am a hard-working and dedicated person, and I always strive to deliver high-quality work. I am a team player and I enjoy working with others to achieve common goals. I am looking for opportunities to work on interesting projects and to further develop my skills.",
@@ -14,39 +14,45 @@ const aboutContent = {
 const progressData = [
   {
     id: 1,
-    title: "Frontend (ReactJS)",
+    title: "Web Development (React.js, Node.js, Express.js)",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "Backend (NodeJS, ExpressJS)",
-    percantage: 95,
-    progressColor: "#FF4C60",
+    title: "Databases and SQL (MongoDB, PostgreSQL, Firebase)",
+    percantage: 70,
+    progressColor: "#339966",
   },
   {
     id: 3,
-    title: "Databases (MongoDB, PostgreSQL, Firebase)",
+    title: "Git and Version Control (GitHub)",
+    percantage: 65,
+    progressColor: "#cc0000",
+  },
+  {
+    id: 4,
+    title: "Linux and Bash Scripting (Ubuntu)",
+    percantage: 70,
+    progressColor: "#ff9933",
+  },
+  {
+    id: 5,
+    title: "Project Management (Jira)",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
   {
-    id: 3,
+    id: 6,
     title: "Problem Solving (LeetCode, HackerRank)",
     percantage: 70,
-    progressColor: "#6C6CE5",
+    progressColor: "#33cccc",
   },
   {
-    id: 3,
-    title: "Test",
+    id: 6,
+    title: "Learning and Growth (ZTM Academy)",
     percantage: 70,
-    progressColor: "#6C6CE5",
-  },
-  {
-    id: 3,
-    title: "Test1",
-    percantage: 70,
-    progressColor: "#6C6CE5",
+    progressColor: "#ff66ff",
   },
 ];
 
@@ -124,7 +130,7 @@ function About() {
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
-        <div className="row fix-spacing">
+        {/* <div className="row fix-spacing">
           {counterData.map((counter) => (
             <div key={counter.id} className="col-md-3 col-sm-6">
               <TrackVisibility once>
@@ -132,7 +138,7 @@ function About() {
               </TrackVisibility>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

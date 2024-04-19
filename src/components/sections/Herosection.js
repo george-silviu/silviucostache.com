@@ -1,17 +1,20 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
+import ParticlesBg from "particles-bg";
 
 function Herosection(props) {
-  const { x, y } = props.position;
-  const { height, width } = props.elementDimensions;
-  const activeParallax = (depth = 15) => {
-    let posX = (width / 2 - x) / depth;
-    let posY = (height / 2 - y) / depth;
-    return {
-      transform: `translate(${posX}px, ${posY}px)`,
-    };
-  };
+  // const { x, y } = props.position;
+  // const { height, width } = props.elementDimensions;
+  // const activeParallax = (depth = 15) => {
+  //   let posX = (width / 2 - x) / depth;
+  //   let posY = (height / 2 - y) / depth;
+  //   return {
+  //     transform: `translate(${posX}px, ${posY}px)`,
+  //   };
+  // };
+
+  const numParticles = window.innerWidth < 768 ? 40 : 120; // Adjust numbers as needed
 
   return (
     <section
@@ -23,6 +26,15 @@ function Herosection(props) {
       }
     >
       <div className="container">
+        <div class="particles">
+          <ParticlesBg
+            type="cobweb"
+            color="#F4743B"
+            num={numParticles}
+            bg={true}
+          />
+        </div>
+
         <div className="intro">
           <img src="images/silviu/profile.png" alt="Silviu" className="mb-4" />
 
@@ -35,7 +47,7 @@ function Herosection(props) {
                 "nature lover",
                 "full-stack developer",
                 "life-long learner",
-                "reader of books",
+                "voracious reader",
               ]}
               typeSpeed={80}
               backSpeed={60}
@@ -97,7 +109,7 @@ function Herosection(props) {
           </Link>
         </div>
 
-        <div className="parallax" data-relative-input="true">
+        {/* <div className="parallax" data-relative-input="true">
           <svg
             width="27"
             height="29"
@@ -265,7 +277,7 @@ function Herosection(props) {
               fillRule="evenodd"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </section>
   );

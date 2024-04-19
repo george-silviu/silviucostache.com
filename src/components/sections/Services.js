@@ -7,7 +7,7 @@ const servicesData = [
   {
     id: 1,
     icon: "images/service-1.svg",
-    title: "UI/UX design",
+    title: "Project Management",
     content:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
     color: "#6C6CE5",
@@ -25,7 +25,7 @@ const servicesData = [
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Photography",
+    title: "Database Design & Development",
     content:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
     color: "#F97B8B",
