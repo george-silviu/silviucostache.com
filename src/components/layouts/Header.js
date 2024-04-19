@@ -28,7 +28,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
   return (
     <>
       <header className={handleMobileClasses()}>
-        <div className="container">
+        <div className="container animate__animated animate__fadeInLeft animate__slow">
           <div className="menu-icon d-inline-flex mr-4">
             <button onClick={headerToggler}>
               <span></span>
@@ -39,7 +39,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
       </header>
       <header className={handleClasses()}>
         <Logo logoSource={logoSource} />
-        <nav>
+        <nav className="animate__animated animate__fadeInLeft animate__slow">
           <ul className="vertical-menu scrollspy">
             <li>
               <Link

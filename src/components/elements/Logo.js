@@ -11,9 +11,9 @@ function Logo({ logoSource, bootstrapNav }) {
   }
 
   return (
-    <div className="site-logo">
+    <div className="site-logo animate__animated animate__fadeInLeft animate__slow">
       <Link to="/">
-        <img src={logoSource} alt="Bolby" />
+        <img src={logoSource} alt="Silviu" />
       </Link>
     </div>
   );

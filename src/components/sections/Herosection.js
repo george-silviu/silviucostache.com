@@ -2,6 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import ParticlesBg from "particles-bg";
+import "animate.css";
 
 function Herosection(props) {
   // const { x, y } = props.position;
@@ -36,10 +37,16 @@ function Herosection(props) {
         </div>
 
         <div className="intro">
-          <img src="images/silviu/profile.png" alt="Silviu" className="mb-4" />
+          <img
+            src="images/silviu/profile.png"
+            alt="Silviu"
+            className="mb-4 animate__animated animate__fadeInDown animate__slow"
+          />
 
-          <h1 className="mb-2 mt-0">George-Silviu Costache</h1>
-          <p>
+          <h1 className="mb-2 mt-0 animate__animated animate__fadeInDown animate__slow">
+            George-Silviu Costache
+          </h1>
+          <p className="animate__animated animate__fadeIn animate__slow">
             I'm a{" "}
             <Typed
               strings={[
@@ -58,7 +65,7 @@ function Herosection(props) {
             </Typed>
           </p>
 
-          <ul className="social-icons light list-inline mb-0 mt-4">
+          <ul className="social-icons light list-inline mb-0 mt-4 animate__animated animate__fadeInUp animate__slow">
             <li className="list-inline-item">
               <a href="https://www.instagram.com/george.silviu/">
                 <i className="fab fa-instagram"></i>
@@ -81,7 +88,7 @@ function Herosection(props) {
             </li>
           </ul>
 
-          <div className="mt-4">
+          <div className="mt-4 animate__animated animate__fadeInUp animate__slow">
             <Link
               className="btn btn-default"
               to="section-contact"
@@ -94,7 +101,7 @@ function Herosection(props) {
           </div>
         </div>
 
-        <div className="scroll-down">
+        <div className="scroll-down animate__animated animate__fadeInUp animate__slow">
           <Link
             to="section-about"
             spy={true}
