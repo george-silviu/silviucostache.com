@@ -46,15 +46,17 @@ function Herosection(props) {
           <h1 className="mb-2 mt-0 animate__animated animate__fadeInDown animate__slow">
             George-Silviu Costache
           </h1>
-          <p className="animate__animated animate__fadeIn animate__slow">
+          <p
+            style={{ color: "#F4743B", fontWeight: "bold" }}
+            className="animate__animated animate__fadeIn animate__slow"
+          >
             I'm a{" "}
             <Typed
               strings={[
-                "",
-                "nature lover",
-                "full-stack developer",
-                "life-long learner",
-                "voracious reader",
+                "nature lover 🍃",
+                "full-stack developer 💻",
+                "life-long learner 💯🚀🎯",
+                "voracious reader 📚",
               ]}
               typeSpeed={80}
               backSpeed={60}
